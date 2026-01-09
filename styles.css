@@ -198,3 +198,68 @@ nav .nav-btn button{
     color: #6b7280;
     
 }
+
+#second-brain-section {
+    
+    padding: 120px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.second-brain-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.brain-image img {
+    width: 600px;
+    height: 600px;
+}
+
+
+
+#second-brain-section .second-brain-content .brain-text h4 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.brain-text h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-size: 16px;
+    color: #627382;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.checklist {
+    list-style: none;
+    font-weight: bold;
+    color:#001931
+}
+
+.checklist li {
+    font-size: 16px;
+    color: #627382;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checklist li img {
+    width: 16px;
+    height: 16px;
+}
