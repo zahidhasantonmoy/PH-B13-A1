@@ -77,3 +77,62 @@ nav .nav-btn button{
     font-weight: bold; 
     color:#30B868
 }
+#features-section {
+    padding: 120px 120px;
+
+}
+#features-section .features-content{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+#features-section .features-content .features-header h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold; 
+    color:#001931;
+   margin: 0 auto;
+}
+#features-section .features-content .features-header p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal; 
+    color:#627382;
+    
+}
+#features-section .features-content .features-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#features-section .features-content .features-cards .feature-card{
+    background-color: #ffffff;
+    color: #0a2540;
+    width: 260px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+} 
+#features-section .features-content .features-cards .feature-card img.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ff5a5a;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0 auto 20px;
+}
+#features-section .features-content .features-cards .feature-card h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#features-section .features-content .features-cards .feature-card p{
+    font-size: 16px;
+    color: #6b7280;
+    
+}
