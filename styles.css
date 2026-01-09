@@ -346,7 +346,7 @@ footer {
 }
 
 .footer {
-    margin: 0 auto;
+    padding: 120px 120px 0 120px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
