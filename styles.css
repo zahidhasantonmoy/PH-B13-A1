@@ -339,16 +339,17 @@ nav .nav-btn button{
 footer {
     /* width: 1600px;
     height: 348px; */
+    padding: 120px 120px 30px 120px;
     background-color: #001931;
     /* margin: 0 auto; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+   
+    /* align-items: center;
+    justify-content: space-between; */
 }
 
 .footer {
-    padding: 120px 120px 30px 120px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
