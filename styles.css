@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
 header {
     padding-top: 35px;
     padding-left: 120px;
@@ -33,49 +38,106 @@ nav .nav-btn button{
     margin-bottom: 16px;
 }
 #hero-section {
-    align-items: center;
     width: 100%;
-    height: auto;
     background-image: url(./assets/hero-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 20px;
+    
 }
-.banner-image img {
-    width: 100%;
-    height: auto;
-}
-#hero-section .hero-content{
 
-    align-items: center;
-    justify-content: center;
-    
+
+
+.hero-content {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
 }
-#hero-section .hero-content .early-get-btn button{
-    
+
+#hero-section .hero-content .early-get-btn button {
     background-color: #ffffff;
-    weight: 164px;
-    height: 44px;
-    padding: 12px 16px;
+    weight: 229px;
+    height: 35px;
+    padding: 8px 12px 8px 12px;
     font-weight: semi-bold;
     color: #30B868;
     border: none;
     border-radius: 1000px;
     font-size: 16px;
-    margin-top: 24px;
+    align-items: center;
+      margin: 0 auto;
 }
 
-#hero-section .hero-content h1{
-    text-align: center;
-    font-size: 72px;
-    font-weight: bold; 
-    color:#FFFFFF
+#hero-section .hero-content h1 {
+    font-size: 68px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.1;
+    margin: 0 0 20px 0;
 }
-#hero-section .hero-content h1 span.highlight{
-    text-align: center;
-    font-size: 72px;
-    font-weight: bold; 
-    color:#30B868
+
+#hero-section .hero-content h1 span.highlight {
+    color: #34d399;
+}
+
+#hero-section .hero-content p {
+    font-size: 20px;
+    color: #e2e8f0;
+    margin-bottom: 50px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero-section .hero-content .nav-btn button {
+    width: 251px;
+    height: 52px;
+    background-color: #30B868;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 16px 16px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 15px;
+    display: flex;
+    gap: 10px;
+}
+
+#hero-section .hero-content .nav-btn button img {
+    width: 20px;
+    height: 20px;
+}
+#hero-section .hero-content .see-button button img {
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+#hero-section .hero-content .early-get-btn button img {
+    align-items: center;
+    width: 16px;
+    height: 16px;
+}
+#hero-section .hero-content .see-button button {
+    display: flex;
+    width: 198;
+    height: 52px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 16px 16px 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+    margin: 0 auto;
+}
+#hero-section .hero-content .btn-flex{
+    display: flex;
+    justify-content: center;
 }
 #features-section {
     padding: 120px 120px;
