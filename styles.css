@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
     
 }
 header {
@@ -35,7 +36,7 @@ nav .nav-btn button{
     border: none;
     border-radius: 4px;
     font-size: 16px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 #hero-section {
     width: 100%;
@@ -57,8 +58,8 @@ nav .nav-btn button{
 
 #hero-section .hero-content .early-get-btn button {
     background-color: #ffffff;
-    weight: 229px;
-    height: 35px;
+    /* weight: 229px;
+    height: 35px; */
     padding: 8px 12px 8px 12px;
     font-weight: semi-bold;
     color: #30B868;
@@ -137,8 +138,8 @@ nav .nav-btn button{
     justify-content: center;
 }
 #features-section {
-    width: 1600px;
-    height: 448px;
+    /* width: 1600px;
+    height: 448px; */
     background-color: #ffffff;
     margin: 0 auto;
     padding: 80px 120px;
@@ -173,7 +174,7 @@ nav .nav-btn button{
 
 .feature-card {
     width: 322px;
-    height: 300px;
+    /* height: 300px; */
     background-color: #ffffff;
     border-radius: 16px;
     padding: 40px 24px;
@@ -185,8 +186,8 @@ nav .nav-btn button{
 }
 
 .icon-circle {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: #F95555;
     border-radius: 50%;
     display: flex;
@@ -278,7 +279,7 @@ nav .nav-btn button{
     height: 16px;
 }
 #early-acces {
-    padding: 80px 120px;
+    /* padding: 80px 120px; */
     background-color: #F7F6F2;
 }
 
@@ -336,20 +337,21 @@ nav .nav-btn button{
     margin: 0;
 }
 footer {
-    width: 1600px;
-    height: 348px;
+    /* width: 1600px;
+    height: 348px; */
     background-color: #001931;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
 }
 
 .footer {
-    padding: 120px 120px 0 120px;
+    padding: 120px 120px 30px 120px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .footer-logo img {
@@ -367,17 +369,17 @@ footer {
     margin-bottom: 16px;
 }
 
-.social-icons a img {
+/* .social-icons a img {
     width: 20px;
     height: 20px;
     background-color: #ffffff;
     border-radius: 50%;
     padding: 8px;
     margin-left: 16px;
-}
+} */
 
 .copyright {
-    padding: 20px 120px;
+    /* padding: 20px 120px; */
     text-align: center;
 }
 
