@@ -39,7 +39,7 @@ nav .nav-btn button{
     /* margin-bottom: 16px; */
 }
 #hero-section {
-    width: 100%;
+    /* width: 100%; */
     background-image: url(./assets/hero-bg.png);
     background-position: center;
     background-size: cover;
@@ -91,8 +91,8 @@ nav .nav-btn button{
 }
 
 #hero-section .hero-content .nav-btn button {
-    width: 251px;
-    height: 52px;
+    /* width: 251px;
+    height: 52px; */
     background-color: #30B868;
     color: #ffffff;
     font-size: 16px;
@@ -337,19 +337,14 @@ nav .nav-btn button{
     margin: 0;
 }
 footer {
-    /* width: 1600px;
-    height: 348px; */
     padding: 120px 120px 30px 120px;
     background-color: #001931;
-    /* margin: 0 auto; */
     display: flex;
-   
-    /* align-items: center;
-    justify-content: space-between; */
+    flex-direction: column; 
 }
 
 .footer {
-    
+    /* padding: 120px 120px 30px 120px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
