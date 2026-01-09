@@ -38,6 +38,11 @@ nav .nav-btn button{
     font-size: 16px;
     /* margin-bottom: 16px; */
 }
+
+nav .nav-btn button:hover {
+    background-color: #269453;
+}
+
 #hero-section {
     /* width: 100%; */
     background-image: url(./assets/hero-bg.png);
@@ -70,6 +75,9 @@ nav .nav-btn button{
       margin: 0 auto;
 }
 
+#hero-section .hero-content .early-get-btn button:hover {
+    background-color: #e0e0e0;
+}
 #hero-section .hero-content h1 {
     font-size: 68px;
     font-weight: bold;
@@ -104,7 +112,9 @@ nav .nav-btn button{
     display: flex;
     gap: 10px;
 }
-
+#hero-section .hero-content .nav-btn button:hover {
+    background-color: #269453;
+}
 #hero-section .hero-content .nav-btn button img {
     width: 20px;
     height: 20px;
@@ -132,6 +142,10 @@ nav .nav-btn button{
     border-radius: 4px;
     align-items: center;
     margin: 0 auto;
+}
+#hero-section .hero-content .see-button button:hover {
+    background-color: white;
+    color: #30B868;
 }
 #hero-section .hero-content .btn-flex{
     display: flex;
@@ -325,7 +339,9 @@ nav .nav-btn button{
     align-items: center;
     justify-content: space-between;
 }
-
+.early-content .nav-btn button:hover {
+    background-color: #269453;
+}
 .early-content .nav-btn button img {
     width: 20px;
     height: 20px;
